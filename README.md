@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Cloud Infrastructure Automation Suite
 
 > Multi-environment AWS infrastructure provisioned with **Terraform**, configured with **Ansible**, and monitored in real time via **Prometheus** and **Grafana**.
@@ -464,3 +465,9 @@ Verify Node Exporter is running on app servers: `systemctl status node_exporter`
 
 **Grafana shows "No data"**  
 Add Prometheus as a data source in Grafana: Settings → Data Sources → Add → Prometheus → URL: `http://localhost:9090`. Then re-import the dashboard JSON.
+=======
+# Cloud-Infrastructure-Automation-Suite
+
+Project 2: Cloud-Infrastructure Automation Suite
+In Progress.
+>>>>>>> 0b1b724a82cfc860bbe7b14408909aba17e9d67c
