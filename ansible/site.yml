@@ -1,0 +1,14 @@
+---
+# Master playbook — applies all roles to the correct host groups
+
+- name: Apply common baseline configuration to all hosts
+  hosts: all
+  become: true
+  roles:
+    - common
+
+- name: Configure monitoring stack (Prometheus + Grafana + Node Exporter)
+  hosts: all
+  become: true
+  roles:
+    - monitoring

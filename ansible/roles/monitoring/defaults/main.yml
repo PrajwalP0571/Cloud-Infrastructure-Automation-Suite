@@ -1,0 +1,8 @@
+---
+node_exporter_version: "1.7.0"
+prometheus_version: "2.50.0"
+grafana_port: 3001
+prometheus_port: 9090
+node_exporter_port: 9100
+prometheus_retention_time: "15d"
+grafana_admin_password: "changeme123"
