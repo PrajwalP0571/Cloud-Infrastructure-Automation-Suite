@@ -471,3 +471,5 @@ Add Prometheus as a data source in Grafana: Settings → Data Sources → Add �
 Project 2: Cloud-Infrastructure Automation Suite
 In Progress.
 >>>>>>> 0b1b724a82cfc860bbe7b14408909aba17e9d67c
+
+Note: To use my Applicatipn, make sure to fork it first.
